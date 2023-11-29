@@ -54,8 +54,8 @@ using UnityEngine;
 
 public class CameraRotation : MonoBehaviour
 {
-    public float rotationAmount = -90.0f;
-    public float rotationAmountLeft = 90.0f;
+    public float rotationAmount = 90.0f;
+    public float rotationAmountLeft = -90.0f;
     public float rotationDuration = 1.0f; // Time taken for the rotation
 
     public Transform squareObject; // Reference to the square object
