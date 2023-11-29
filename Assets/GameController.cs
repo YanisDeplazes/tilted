@@ -117,7 +117,7 @@ public class GameController : MonoBehaviour
     void UpdatePlayTime()
     {
         float playTime = Time.time - startTime;
-        playtimeText.text = "Time: " + playTime.ToString("F2"); // Display playtime formatted with 2 decimal places
+        playtimeText.text = playTime.ToString("F2"); // Display playtime formatted with 2 decimal places
         leaderboardPlaytimeText.text = "Time: " + playTime.ToString("F2"); // Update playtime text on leaderboard canvas
     }
 
